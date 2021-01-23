@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title>Sign Up Page</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
+
+  </head>
+
+  <style>
+
+    input {
+      margin-left: 895px;
+      width: 250px;
+    }
+
+    #a {
+      width: 100px;
+      margin-left: 960px;
+    }
+
+    h1 {
+      margin-left: 895px;
+    }
+
+  </style>
+
+  <body>
+    
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+      <h1 text-align="center">Please sign up</h1>
+      <br>
+      <form action="" method="post">
+        <input type="number" placeholder="Phone no." name="phnumber" value="{{
+        request.form.phnumber }}">
+        <br><br>
+        <input type="text" placeholder="Your full name" name="name" value="{{
+        request.form.name }}">
+        <br><br>
+        <input type="password" placeholder="Password" name="password-1" value="{{
+        request.form.password }}">
+        <br><br>
+        <input type="password" placeholder="Re-enter Password" name="password-2" value="{{
+        request.form.password }}">
+        <br><br>
+        <input type="text" placeholder="Name and colour of the vehicle" name="vehicle" value="{{
+        request.form.vehicle }}">
+        <br><br>
+        <input type="text" placeholder="Number plate of the vehicle" name="plateno" value="{{
+        request.form.plateno }}">
+        <br><br>
+        <input id="a" class="btn btn-default" type="submit" value="Sign Up">
+        <br><br>
+      </form>
+
+      {% if error %}
+        <p class="error"><strong>Error:</strong> {{ error }}</p>
+      {% endif %}
+
+      {% if success %}
+        <p class="success"> {{ success }} 
+          Click <a href="/login"> here </a> to login
+        </p>
+      {% endif %}
+
+    </div>
+
+  </body>
+
+</html>
