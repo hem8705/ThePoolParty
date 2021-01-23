@@ -1,3 +1,4 @@
 # ThePoolParty
 
  HitchHiker is a ride-share app which connects people from the same neighborhood to be more time, financially, and environmentally efficient. When somebody is going to go to a certain place, they can enter the time they are leaving, the destination, and the number of free seats they have in their vehicle. Then, if anyone signs into their account looking for a ride, they can type the destination that they want to go to. They will then see all the available rides going near the destination at different times and they can choose the time which is most convenient for them. They can put in a request for a ride and if the driver accepts it then they can collaborate with each other to go where they want to. This allows for not only easier transport, but also helps people connect, while also reducing carbon emissions. 
+//
