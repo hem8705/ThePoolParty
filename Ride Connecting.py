@@ -6,8 +6,8 @@ import numpy as np
 # =============================================================================
 url=data="https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&"
 api_key="key"
-#ad1=input("Adress 1")
-#ad2=input("Adress 2")
+#ad1=input("Address 1")
+#ad2=input("Address 2")
 #data="https://www.googleapis.com/geolocation/v1/geolocate?"
 #r=requests.get(url+"origins="+ad1+"&destinations="+ad2+"&key="+api_key)
 
